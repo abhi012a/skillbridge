@@ -1,0 +1,748 @@
+[
+  {
+    "id": "opp-mujj3phc",
+    "title": "Automated E2E Test Hackathon",
+    "category": "Hackathons & Competitions",
+    "organizer": "Test Org",
+    "description": "A test hackathon created during verification.",
+    "mode": "Remote",
+    "location": "Global",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "requiredSkills": [
+      "Python",
+      "Docker"
+    ],
+    "interests": [
+      "Testing",
+      "Automation"
+    ],
+    "deadline": "2026-11-20",
+    "stipendOrPrize": "$5,000",
+    "isFree": true,
+    "applyUrl": "https://example.com/e2e-test",
+    "featured": false,
+    "eligibility": "Open to all eligible students.",
+    "createdAt": "2026-09-27T08:00:23.232Z"
+  },
+  {
+    "id": "opp-001",
+    "title": "Google Solution Challenge 2026",
+    "category": "Hackathons & Competitions",
+    "organizer": "Google Developer Student Clubs",
+    "description": "Annual global hackathon inviting university students to build solutions for one or more of the United Nations 17 Sustainable Development Goals using Google technologies.",
+    "mode": "Remote",
+    "location": "Global / Online",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "requiredSkills": [
+      "Flutter",
+      "Firebase",
+      "TensorFlow",
+      "Google Cloud",
+      "Python",
+      "React"
+    ],
+    "interests": [
+      "Social Impact",
+      "Mobile App Development",
+      "Machine Learning",
+      "Cloud Computing"
+    ],
+    "deadline": "2026-04-15",
+    "stipendOrPrize": "$12,000 Prize Pool + Google Mentorship",
+    "isFree": true,
+    "applyUrl": "https://developers.google.com/community/gdsc-solution-challenge",
+    "featured": true,
+    "eligibility": "Current college/university students aged 18+ affiliated with an active student developer community."
+  },
+  {
+    "id": "opp-002",
+    "title": "Smart India Hackathon (SIH) 2026",
+    "category": "Hackathons & Competitions",
+    "organizer": "Ministry of Education & AICTE",
+    "description": "World's biggest open innovation model for students to provide digital solutions to pressing challenges faced by government ministries and private sectors.",
+    "mode": "Hybrid",
+    "location": "New Delhi & Nodal Centers, India",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate",
+      "Diploma"
+    ],
+    "requiredSkills": [
+      "Full-Stack",
+      "IoT",
+      "AI/ML",
+      "Blockchain",
+      "Python",
+      "React",
+      "Mobile Development"
+    ],
+    "interests": [
+      "Civic Tech",
+      "Smart Automation",
+      "Healthcare Tech",
+      "Disaster Management"
+    ],
+    "deadline": "2026-05-30",
+    "stipendOrPrize": "₹1,00,000 per problem statement",
+    "isFree": true,
+    "applyUrl": "https://www.sih.gov.in",
+    "featured": true,
+    "eligibility": "Teams of 6 students from recognized academic institutes (at least 1 female teammate mandatory)."
+  },
+  {
+    "id": "opp-003",
+    "title": "Google STEP Internship (Student Training in Engineering Program)",
+    "category": "Internships",
+    "organizer": "Google",
+    "description": "Developmental internship for first and second-year undergraduate students with a passion for computer science, providing hands-on software engineering experience and mentorship.",
+    "mode": "Hybrid",
+    "location": "Bengaluru / Hyderabad, India / Mountain View, USA",
+    "educationLevel": [
+      "Undergraduate"
+    ],
+    "requiredSkills": [
+      "Data Structures",
+      "Algorithms",
+      "C++",
+      "Java",
+      "Python"
+    ],
+    "interests": [
+      "Software Engineering",
+      "Distributed Systems",
+      "Algorithms"
+    ],
+    "deadline": "2026-10-30",
+    "stipendOrPrize": "₹85,000 - ₹1,10,000 / month + Housing stipend",
+    "isFree": true,
+    "applyUrl": "https://careers.google.com/students",
+    "featured": true,
+    "eligibility": "1st or 2nd year students enrolled in a Bachelor's degree in Computer Science or related STEM field."
+  },
+  {
+    "id": "opp-004",
+    "title": "Microsoft Software Engineering Summer Internship",
+    "category": "Internships",
+    "organizer": "Microsoft",
+    "description": "12-week summer internship where students build impactful features inside Azure, Windows, Office 365, or Developer Platforms alongside world-class engineers.",
+    "mode": "Hybrid",
+    "location": "Redmond, WA / Hyderabad, India",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "requiredSkills": [
+      "C#",
+      "C++",
+      "TypeScript",
+      "Cloud Systems",
+      "Data Structures",
+      "Python"
+    ],
+    "interests": [
+      "Cloud Computing",
+      "AI Systems",
+      "Operating Systems",
+      "Enterprise Software"
+    ],
+    "deadline": "2026-11-15",
+    "stipendOrPrize": "Competitive Monthly Stipend + Relocation & Tech Allowance",
+    "isFree": true,
+    "applyUrl": "https://careers.microsoft.com/students",
+    "featured": true,
+    "eligibility": "Pre-final and final year students pursuing Computer Science, Data Science, or related degrees."
+  },
+  {
+    "id": "opp-005",
+    "title": "Grace Hopper Celebration Student Scholarship",
+    "category": "Scholarships",
+    "organizer": "AnitaB.org",
+    "description": "Provides full funding for women and non-binary computing students to attend the world's largest gathering of women technologists, network with top employers, and gain career mentorship.",
+    "mode": "Onsite",
+    "location": "Orlando, Florida / Hybrid Option",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate",
+      "PhD"
+    ],
+    "requiredSkills": [
+      "Problem Solving",
+      "Leadership",
+      "Computing Background"
+    ],
+    "interests": [
+      "Diversity in Tech",
+      "Career Advancement",
+      "Networking",
+      "Computer Science"
+    ],
+    "deadline": "2026-05-10",
+    "stipendOrPrize": "Full Conference Registration + Flights + Hotel & Meal Stipend",
+    "isFree": true,
+    "applyUrl": "https://ghc.anitab.org",
+    "featured": true,
+    "eligibility": "Enrolled undergraduate or graduate students identifying as women or non-binary in computing disciplines."
+  },
+  {
+    "id": "opp-006",
+    "title": "Adobe Research Women-in-Technology Scholarship",
+    "category": "Scholarships",
+    "organizer": "Adobe",
+    "description": "Recognizes outstanding undergraduate and master's female students worldwide whose academic records demonstrate potential to revolutionize computer science and media technology.",
+    "mode": "Remote",
+    "location": "Global",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "requiredSkills": [
+      "Research Writing",
+      "Computer Vision",
+      "Machine Learning",
+      "Algorithms",
+      "C++",
+      "Python"
+    ],
+    "interests": [
+      "Artificial Intelligence",
+      "Computer Graphics",
+      "Creative Media",
+      "Human-Computer Interaction"
+    ],
+    "deadline": "2026-08-20",
+    "stipendOrPrize": "$10,000 USD one-time award + 1-year Creative Cloud + Adobe Mentorship",
+    "isFree": true,
+    "applyUrl": "https://research.adobe.com/scholarships",
+    "featured": true,
+    "eligibility": "Full-time female students in CS, Information Science, or electrical engineering with strong academic standing."
+  },
+  {
+    "id": "opp-007",
+    "title": "Google Cloud Associate Cloud Engineer Certification Grant",
+    "category": "Courses & Certifications",
+    "organizer": "Google Cloud Innovators & Student Program",
+    "description": "Sponsored vouchers and learning paths to prepare students to deploy applications, monitor operations, and manage enterprise solutions on Google Cloud Platform.",
+    "mode": "Remote",
+    "location": "Online / On-demand",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate",
+      "Recent Graduate"
+    ],
+    "requiredSkills": [
+      "Cloud Architecture",
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "IAM",
+      "Networking"
+    ],
+    "interests": [
+      "Cloud Computing",
+      "DevOps",
+      "Site Reliability Engineering",
+      "Google Cloud"
+    ],
+    "deadline": "2026-06-30",
+    "stipendOrPrize": "100% Exam Fee Waiver ($125 value) + 6 Months Google Cloud Skills Boost Access",
+    "isFree": true,
+    "applyUrl": "https://cloud.google.com/certification/cloud-engineer",
+    "featured": false,
+    "eligibility": "Enrolled university students with basic familiarity with command-line tools and operating systems."
+  },
+  {
+    "id": "opp-008",
+    "title": "Meta Front-End Developer Professional Certificate & Career Hub",
+    "category": "Courses & Certifications",
+    "organizer": "Meta (via Coursera Student Access)",
+    "description": "Comprehensive 9-course credential covering HTML, CSS, modern JavaScript, React, UI/UX design, and version control, including direct access to Meta's exclusive job board.",
+    "mode": "Remote",
+    "location": "Online / Self-Paced",
+    "educationLevel": [
+      "High School",
+      "Undergraduate",
+      "Postgraduate",
+      "Career Switcher"
+    ],
+    "requiredSkills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "Git",
+      "Figma"
+    ],
+    "interests": [
+      "Frontend Development",
+      "Web Design",
+      "UI/UX",
+      "Full-Stack Development"
+    ],
+    "deadline": "2026-12-31",
+    "stipendOrPrize": "Industry-recognized certificate + Access to 200+ Hiring Partners",
+    "isFree": true,
+    "applyUrl": "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+    "featured": false,
+    "eligibility": "Open to all students; financial aid available for 100% discount via university partnerships."
+  },
+  {
+    "id": "opp-009",
+    "title": "NASA International Space Apps Challenge 2026",
+    "category": "Hackathons & Competitions",
+    "organizer": "NASA Earth Science Division",
+    "description": "Global hackathon where coders, scientists, designers, storytellers, and technologists use NASA's open Earth and space data to solve real-world problems on Earth and in space.",
+    "mode": "Hybrid",
+    "location": "Local Host Cities Worldwide & Virtual",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate",
+      "High School"
+    ],
+    "requiredSkills": [
+      "Data Analysis",
+      "Python",
+      "GIS Mapping",
+      "Satellite Data",
+      "Web Development",
+      "3D Modeling"
+    ],
+    "interests": [
+      "Space Exploration",
+      "Climate Science",
+      "Astronomy",
+      "Data Science",
+      "Open Science"
+    ],
+    "deadline": "2026-10-04",
+    "stipendOrPrize": "Global Winner Trophy + Invitation to NASA Rocket Launch",
+    "isFree": true,
+    "applyUrl": "https://www.spaceappschallenge.org",
+    "featured": true,
+    "eligibility": "Anyone passionate about space, open science, or technology. Solo or teams of up to 6 members."
+  },
+  {
+    "id": "opp-010",
+    "title": "Linux Foundation LFX Mentorship - Fall 2026",
+    "category": "Internships",
+    "organizer": "The Linux Foundation",
+    "description": "Paid remote apprenticeship program for open-source contributors to work directly on CNCF, Hyperledger, OpenSSF, and Linux kernel projects under guidance of senior maintainers.",
+    "mode": "Remote",
+    "location": "Worldwide / 100% Remote",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate",
+      "Self-Taught"
+    ],
+    "requiredSkills": [
+      "Go",
+      "Rust",
+      "C",
+      "Linux",
+      "Kubernetes",
+      "Git"
+    ],
+    "interests": [
+      "Open Source",
+      "Kernel Development",
+      "Cloud-Native",
+      "Systems Programming"
+    ],
+    "deadline": "2026-08-15",
+    "stipendOrPrize": "$3,000 - $6,600 USD (PPP Adjusted) Stipend",
+    "isFree": true,
+    "applyUrl": "https://lfx.linuxfoundation.org/tools/mentorship",
+    "featured": true,
+    "eligibility": "Open to developers 18+ eligible to work in their home jurisdiction and legally accept stipends."
+  },
+  {
+    "id": "opp-011",
+    "title": "DeepLearning.AI Generative AI Hands-on Workshop & Masterclass",
+    "category": "Workshops",
+    "organizer": "DeepLearning.AI & Andrew Ng",
+    "description": "Intensive weekend workshop covering Large Language Models, prompt engineering, RAG architecture, agentic workflows, and fine-tuning with open models.",
+    "mode": "Remote",
+    "location": "Online Live Stream + Interactive Labs",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "requiredSkills": [
+      "Python",
+      "PyTorch",
+      "Hugging Face",
+      "LLM APIs",
+      "Vector Databases"
+    ],
+    "interests": [
+      "Artificial Intelligence",
+      "Generative AI",
+      "NLP",
+      "Machine Learning"
+    ],
+    "deadline": "2026-05-18",
+    "stipendOrPrize": "Verified Digital Badge + $100 GPU Cloud Credits",
+    "isFree": true,
+    "applyUrl": "https://www.deeplearning.ai/short-courses",
+    "featured": false,
+    "eligibility": "Students and developers with intermediate Python programming experience."
+  },
+  {
+    "id": "opp-012",
+    "title": "Reliance Foundation Undergraduate Scholarship",
+    "category": "Scholarships",
+    "organizer": "Reliance Foundation",
+    "description": "Supports meritorious undergraduate students across all study streams with financial assistance and leadership development to pursue degree studies in India.",
+    "mode": "Onsite",
+    "location": "India",
+    "educationLevel": [
+      "Undergraduate"
+    ],
+    "requiredSkills": [
+      "Academic Excellence",
+      "Community Leadership"
+    ],
+    "interests": [
+      "Engineering",
+      "Science",
+      "Commerce",
+      "Arts"
+    ],
+    "deadline": "2026-10-15",
+    "stipendOrPrize": "Up to ₹2,00,000 over duration of degree + Mentorship programs",
+    "isFree": true,
+    "applyUrl": "https://www.reliancefoundation.org",
+    "featured": false,
+    "eligibility": "Indian citizens enrolled in 1st year regular full-time undergraduate degree with household income < ₹15 Lakhs."
+  },
+  {
+    "id": "opp-013",
+    "title": "ETHGlobal Brussels / Virtual Web3 Hackathon",
+    "category": "Hackathons & Competitions",
+    "organizer": "ETHGlobal",
+    "description": "Premier Ethereum ecosystem hackathon bringing together builders to create decentralized applications, DeFi primitives, zero-knowledge proofs, and account abstraction tools.",
+    "mode": "Hybrid",
+    "location": "Brussels, Belgium / Online",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate",
+      "Independent"
+    ],
+    "requiredSkills": [
+      "Solidity",
+      "TypeScript",
+      "Ethers.js",
+      "Smart Contracts",
+      "Next.js",
+      "Rust"
+    ],
+    "interests": [
+      "Web3",
+      "Blockchain",
+      "FinTech",
+      "Cryptography"
+    ],
+    "deadline": "2026-07-01",
+    "stipendOrPrize": "$500,000 Total Prize Pool across sponsor bounties",
+    "isFree": true,
+    "applyUrl": "https://ethglobal.com",
+    "featured": false,
+    "eligibility": "Developers, designers, and students interested in Web3. Free admission upon accepted application."
+  },
+  {
+    "id": "opp-014",
+    "title": "Goldman Sachs Global Engineering Summer Analyst",
+    "category": "Internships",
+    "organizer": "Goldman Sachs",
+    "description": "10-week summer program offering students the opportunity to build high-frequency trading engines, risk management architectures, and enterprise cyber defenses.",
+    "mode": "Onsite",
+    "location": "New York, NY / London, UK / Bengaluru, India",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate"
+    ],
+    "requiredSkills": [
+      "Java",
+      "Python",
+      "Data Structures",
+      "Algorithms",
+      "Financial Engineering",
+      "Distributed Systems"
+    ],
+    "interests": [
+      "FinTech",
+      "High Performance Computing",
+      "Quantitative Finance",
+      "Security"
+    ],
+    "deadline": "2026-09-30",
+    "stipendOrPrize": "Competitive Industry Stipend + Housing Support",
+    "isFree": true,
+    "applyUrl": "https://www.goldmansachs.com/careers/students",
+    "featured": true,
+    "eligibility": "Undergraduate and graduate students graduating between December 2026 and June 2027."
+  },
+  {
+    "id": "opp-015",
+    "title": "Harvard CS50x: Introduction to Computer Science",
+    "category": "Courses & Certifications",
+    "organizer": "Harvard University (edX)",
+    "description": "World-renowned foundational computer science course teaching students how to think algorithmically and solve problems efficiently using C, Python, SQL, HTML, CSS, and JavaScript.",
+    "mode": "Remote",
+    "location": "Worldwide / Online",
+    "educationLevel": [
+      "High School",
+      "Undergraduate",
+      "Postgraduate",
+      "Anyone"
+    ],
+    "requiredSkills": [
+      "Critical Thinking",
+      "Problem Solving",
+      "Logic"
+    ],
+    "interests": [
+      "Computer Science",
+      "Programming Foundations",
+      "Software Engineering"
+    ],
+    "deadline": "2026-12-31",
+    "stipendOrPrize": "Free Official Harvard Certificate of Completion upon scoring 70%+",
+    "isFree": true,
+    "applyUrl": "https://cs50.harvard.edu/x",
+    "featured": false,
+    "eligibility": "Completely free and open to anyone of any age or background."
+  },
+  {
+    "id": "opp-016",
+    "title": "Amazon Future Engineer Scholarship & Internship",
+    "category": "Scholarships",
+    "organizer": "Amazon",
+    "description": "Awards high school seniors and 1st-year students pursuing computer science with four-year college scholarships and guaranteed paid summer internships at Amazon.",
+    "mode": "Hybrid",
+    "location": "USA / India",
+    "educationLevel": [
+      "High School",
+      "Undergraduate"
+    ],
+    "requiredSkills": [
+      "Programming Fundamentals",
+      "Mathematics",
+      "Java",
+      "Python"
+    ],
+    "interests": [
+      "E-Commerce",
+      "Cloud Infrastructure",
+      "Robotics",
+      "Software Engineering"
+    ],
+    "deadline": "2026-12-15",
+    "stipendOrPrize": "$40,000 Total College Scholarship + Paid Amazon SWE Internship",
+    "isFree": true,
+    "applyUrl": "https://www.amazonfutureengineer.com",
+    "featured": true,
+    "eligibility": "Students from historically underserved communities planning to study Computer Science or Engineering."
+  },
+  {
+    "id": "opp-017",
+    "title": "Kaggle Community Days: Real-World Machine Learning Sprint",
+    "category": "Workshops",
+    "organizer": "Kaggle & Google Developers",
+    "description": "Interactive 3-day virtual sprint featuring live coding sessions, exploratory data analysis walkthroughs, tabular modeling, and deep learning competitions with Kaggle Grandmasters.",
+    "mode": "Remote",
+    "location": "Global / Discord & YouTube",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate",
+      "Researchers"
+    ],
+    "requiredSkills": [
+      "Python",
+      "Pandas",
+      "Scikit-Learn",
+      "Jupyter",
+      "Data Visualization"
+    ],
+    "interests": [
+      "Data Science",
+      "Machine Learning",
+      "Competitive AI",
+      "Data Analytics"
+    ],
+    "deadline": "2026-06-12",
+    "stipendOrPrize": "Kaggle Swag Kits + Google Cloud TPU Credits + Participant Badges",
+    "isFree": true,
+    "applyUrl": "https://www.kaggle.com/events",
+    "featured": false,
+    "eligibility": "Beginner to advanced data enthusiasts with basic Python knowledge."
+  },
+  {
+    "id": "opp-018",
+    "title": "OpenSSF Secure Software Development Certification",
+    "category": "Courses & Certifications",
+    "organizer": "Open Source Security Foundation & The Linux Foundation",
+    "description": "Hands-on certification teaching software developers how to create secure software, prevent common vulnerabilities (OWASP Top 10), and protect CI/CD supply chains.",
+    "mode": "Remote",
+    "location": "Online / On-demand",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate",
+      "Professionals"
+    ],
+    "requiredSkills": [
+      "Application Security",
+      "Git",
+      "OWASP",
+      "Vulnerability Assessment",
+      "CI/CD"
+    ],
+    "interests": [
+      "Cybersecurity",
+      "DevSecOps",
+      "Open Source Security",
+      "Cloud Security"
+    ],
+    "deadline": "2026-11-30",
+    "stipendOrPrize": "100% Free Linux Foundation Certificate & Digital Credly Badge",
+    "isFree": true,
+    "applyUrl": "https://openssf.org/training",
+    "featured": false,
+    "eligibility": "Available worldwide to any student or professional at zero cost."
+  },
+  {
+    "id": "opp-019",
+    "title": "HackMIT 2026",
+    "category": "Hackathons & Competitions",
+    "organizer": "Massachusetts Institute of Technology (MIT)",
+    "description": "One of the most prestigious student-run collegiate hackathons in the world. 1,000+ top hackers convene for 24 hours of innovation, mentorship, and tech workshops.",
+    "mode": "Hybrid",
+    "location": "Cambridge, MA, USA / Virtual Stream",
+    "educationLevel": [
+      "Undergraduate",
+      "High School"
+    ],
+    "requiredSkills": [
+      "Full-Stack",
+      "Hardware / IoT",
+      "AI/ML",
+      "UI/UX",
+      "Python",
+      "JavaScript"
+    ],
+    "interests": [
+      "Rapid Prototyping",
+      "Interdisciplinary Tech",
+      "Startups",
+      "Developer Tools"
+    ],
+    "deadline": "2026-07-25",
+    "stipendOrPrize": "$30,000+ in Total Prizes & Hardware Lab Access",
+    "isFree": true,
+    "applyUrl": "https://hackmit.org",
+    "featured": true,
+    "eligibility": "Undergraduate students globally. Travel grants available for accepted in-person hackers."
+  },
+  {
+    "id": "opp-020",
+    "title": "ISRO Young Scientist & Student Research Fellowship",
+    "category": "Internships",
+    "organizer": "Indian Space Research Organisation (ISRO)",
+    "description": "Opportunity for university students in Aerospace, Computer Science, and Electronics to conduct live research on satellite remote sensing, autonomous orbit navigation, and propulsion telemetry.",
+    "mode": "Onsite",
+    "location": "ISRO Headquarters & Centers (Bengaluru, Ahmedabad, Thiruvananthapuram)",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate",
+      "PhD"
+    ],
+    "requiredSkills": [
+      "C++",
+      "MATLAB",
+      "Embedded Systems",
+      "Computer Vision",
+      "Signal Processing"
+    ],
+    "interests": [
+      "Space Tech",
+      "Robotics",
+      "Embedded Systems",
+      "Aerospace Engineering"
+    ],
+    "deadline": "2026-06-05",
+    "stipendOrPrize": "₹25,000 / month + Lab facility access & Scientist mentorship",
+    "isFree": true,
+    "applyUrl": "https://www.isro.gov.in/Careers.html",
+    "featured": true,
+    "eligibility": "Indian university students with minimum 7.5 CGPA in engineering or physical sciences."
+  },
+  {
+    "id": "opp-021",
+    "title": "AWS Certified Cloud Practitioner - Student Voucher Initiative",
+    "category": "Courses & Certifications",
+    "organizer": "Amazon Web Services (AWS Educate)",
+    "description": "Foundational cloud certification providing essential validation of cloud concepts, security, architecture, pricing, and support models across AWS services.",
+    "mode": "Remote",
+    "location": "Online Pearson VUE",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate",
+      "Diploma"
+    ],
+    "requiredSkills": [
+      "AWS Services",
+      "Cloud Fundamentals",
+      "Security & Compliance",
+      "Cloud Economics"
+    ],
+    "interests": [
+      "Cloud Computing",
+      "AWS",
+      "Infrastructure",
+      "Solutions Architecture"
+    ],
+    "deadline": "2026-08-31",
+    "stipendOrPrize": "50% - 100% Student Voucher + Free AWS Sandbox Credits",
+    "isFree": false,
+    "applyUrl": "https://aws.amazon.com/certification/certified-cloud-practitioner",
+    "featured": false,
+    "eligibility": "Students registered with an active .edu or university institutional email address."
+  },
+  {
+    "id": "opp-022",
+    "title": "Women Techmakers Ambassadors & Mentorship Program",
+    "category": "Workshops",
+    "organizer": "Google Women Techmakers",
+    "description": "Global community program providing women in technology with visibility, community, and curated masterclasses on leadership, technical speaking, and AI app building.",
+    "mode": "Hybrid",
+    "location": "Global Communities & Online",
+    "educationLevel": [
+      "Undergraduate",
+      "Postgraduate",
+      "Professionals"
+    ],
+    "requiredSkills": [
+      "Public Speaking",
+      "Community Organizing",
+      "Software Development",
+      "Mentorship"
+    ],
+    "interests": [
+      "Diversity in Tech",
+      "Community Leadership",
+      "AI Literacy",
+      "Networking"
+    ],
+    "deadline": "2026-06-28",
+    "stipendOrPrize": "Official Ambassador Swag + Direct Google Event Access + Google Cloud Credits",
+    "isFree": true,
+    "applyUrl": "https://developers.google.com/wtm",
+    "featured": false,
+    "eligibility": "Active women technologists and allies committed to fostering diversity in STEM fields."
+  }
+]

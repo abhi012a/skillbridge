@@ -1,0 +1,33 @@
+{
+  "name": "Abhiraj Abhale",
+  "email": "abhirajabhale65@gmail.com",
+  "university": "Sanjivani University",
+  "degree": "B.Tech in Computer Science & Engineering",
+  "graduationYear": 2027,
+  "educationLevel": "Undergraduate",
+  "skills": [
+    "Python",
+    "React",
+    "JavaScript",
+    "Docker",
+    "Machine Learning",
+    "Git",
+    "Cloud Computing"
+  ],
+  "interests": [
+    "Artificial Intelligence",
+    "Full-Stack Development",
+    "Cloud Systems",
+    "Open Source",
+    "Social Impact"
+  ],
+  "preferredCategories": [
+    "Hackathons & Competitions",
+    "Internships",
+    "Scholarships",
+    "Courses & Certifications",
+    "Workshops"
+  ],
+  "preferredMode": "Any",
+  "bio": "Third-year Computer Science student passionate about building practical full-stack web applications, exploring cloud tech, and participating in hackathons."
+}

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillBridge — Student Opportunities, Hackathons & Internships</title>
+  <meta name="description" content="A student-first platform for discovering hackathons, internships, scholarships, certifications, and workshops matched to your skills and interests.">
+  <meta name="keywords" content="student opportunities, hackathons, internships, scholarships, certifications, workshops, career platform, student dashboard">
+  
+  <!-- Modern Typography from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="mainNavbar">
+    <a href="#" class="nav-brand" id="brandLogoLink">
+      <div class="brand-icon">⚡</div>
+      <span>SkillBridge</span>
+      <span class="brand-badge">Student Edition</span>
+    </a>
+
+    <nav aria-label="Main Navigation">
+      <ul class="nav-links">
+        <li>
+          <button class="nav-btn active" data-tab="explore" id="navExploreBtn">
+            🔎 Explore
+          </button>
+        </li>
+        <li>
+          <button class="nav-btn" data-tab="dashboard" id="navDashboardBtn">
+            📊 My Tracker
+          </button>
+        </li>
+        <li>
+          <button class="nav-btn" data-tab="profile" id="navProfileBtn">
+            🎓 My Profile
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle-btn" id="themeToggleBtn" title="Toggle Dark/Light Mode" aria-label="Toggle theme">
+        ☀️
+      </button>
+
+      <button class="btn-primary" id="openSubmitModalBtn" title="Contribute an Opportunity">
+        <span>+</span> Submit Opportunity
+      </button>
+
+      <div class="user-pill" id="navUserPill" title="View Profile">
+        <div class="user-avatar" id="navUserAvatar">A</div>
+        <span class="user-pill-name" id="navUserName">Abhiraj Abhale</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="main-wrapper">
+    <!-- Hero / Intro Banner -->
+    <section class="hero-section" id="heroSection">
+      <div class="hero-pill">
+        <span>🎓 Handpicked for Student Developers & Creators</span>
+      </div>
+      <h1 class="hero-title">Your launchpad for hackathons, internships & grants.</h1>
+      <p class="hero-subtitle">
+        No more digging through chaotic WhatsApp groups, buried Discord channels, or outdated job boards. Explore verified opportunities tailored to your skills and coursework.
+      </p>
+
+      <div class="hero-stats-row">
+        <div class="hero-stat-chip">
+          <span class="dot"></span>
+          <span>Verified Listings</span>
+        </div>
+        <div class="hero-stat-chip">
+          <span>🎯 Skill-Based Matching</span>
+        </div>
+        <div class="hero-stat-chip">
+          <span>📅 1-Click Calendar Export</span>
+        </div>
+        <div class="hero-stat-chip">
+          <span>📋 Application Tracker</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 1: Explore Opportunities View -->
+    <section id="exploreView">
+      <!-- Category Quick Filter Bar -->
+      <div class="category-filter-bar" role="tablist" aria-label="Opportunity Categories">
+        <button class="cat-pill active" data-cat="All" id="filterCatAll">🌟 All Opportunities</button>
+        <button class="cat-pill" data-cat="Hackathons & Competitions" id="filterCatHackathons">🏆 Hackathons & Competitions</button>
+        <button class="cat-pill" data-cat="Internships" id="filterCatInternships">💼 Internships</button>
+        <button class="cat-pill" data-cat="Scholarships" id="filterCatScholarships">🎓 Scholarships</button>
+        <button class="cat-pill" data-cat="Courses & Certifications" id="filterCatCourses">📚 Courses & Certifications</button>
+        <button class="cat-pill" data-cat="Workshops" id="filterCatWorkshops">💡 Workshops</button>
+      </div>
+
+      <!-- Controls & Search Bar -->
+      <div class="controls-bar">
+        <div class="search-input-group">
+          <span class="search-icon" aria-hidden="true">🔎</span>
+          <input type="text" id="searchInput" class="search-input" placeholder="Search by title, company, skills (e.g., Python, Google, ML, Cloud)..." aria-label="Search opportunities">
+        </div>
+
+        <select id="modeFilter" class="filter-select" aria-label="Filter by mode">
+          <option value="All">All Modes</option>
+          <option value="Remote">Remote Only</option>
+          <option value="Hybrid">Hybrid</option>
+          <option value="Onsite">Onsite / In-Person</option>
+        </select>
+
+        <select id="sortBy" class="filter-select" aria-label="Sort opportunities">
+          <option value="recommended">Best Match (Recommended)</option>
+          <option value="deadline">Closing Soonest</option>
+          <option value="title">Title (A to Z)</option>
+        </select>
+
+        <label class="filter-checkbox-label">
+          <input type="checkbox" id="freeFilter">
+          <span>100% Free Only</span>
+        </label>
+      </div>
+
+      <!-- Results Metadata -->
+      <div class="results-meta">
+        <span id="resultsCount">Loading opportunities...</span>
+        <span style="font-size:0.82rem; color:var(--text-muted);">Ranked based on your skills & interests</span>
+      </div>
+
+      <!-- Cards Grid -->
+      <div class="opps-grid" id="oppsGridContainer">
+        <!-- Rendered dynamically by card.js -->
+      </div>
+    </section>
+
+    <!-- TAB 2: Student Dashboard View (Initially Hidden) -->
+    <section id="dashboardView" style="display: none;">
+      <!-- Rendered dynamically by dashboard.js -->
+    </section>
+
+    <!-- TAB 3: Student Profile View (Initially Hidden) -->
+    <section id="profileView" style="display: none;">
+      <!-- Rendered dynamically by profile.js -->
+    </section>
+  </main>
+
+  <!-- Opportunity Details Modal -->
+  <div class="modal-overlay" id="detailsModalOverlay" role="dialog" aria-modal="true">
+    <!-- Populated dynamically by modal.js -->
+  </div>
+
+  <!-- Submit Opportunity Modal -->
+  <div class="modal-overlay" id="submitModalOverlay" role="dialog" aria-modal="true">
+    <div class="modal-content" id="submitModalContent" style="max-width: 680px;">
+      <button class="modal-close-btn" id="closeSubmitModal" aria-label="Close modal">&times;</button>
+      
+      <div style="margin-bottom:1.25rem;">
+        <h2 style="font-size:1.45rem; font-weight:800; color:var(--text-primary);">➕ Submit a Student Opportunity</h2>
+        <p style="font-size:0.85rem; color:var(--text-secondary);">Help peers discover student opportunities, hackathons, and grants.</p>
+      </div>
+
+      <form id="submitOpportunityForm">
+        <div class="form-grid">
+          <div class="form-group full">
+            <label class="form-label" for="oppTitle">Opportunity Title *</label>
+            <input type="text" id="oppTitle" name="title" class="form-control" required placeholder="e.g. Climate Tech Global Hackathon 2026">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="oppCategory">Category *</label>
+            <select id="oppCategory" name="category" class="form-control" required>
+              <option value="Hackathons & Competitions">Hackathons & Competitions</option>
+              <option value="Internships">Internships</option>
+              <option value="Scholarships">Scholarships</option>
+              <option value="Courses & Certifications">Courses & Certifications</option>
+              <option value="Workshops">Workshops</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="oppOrganizer">Hosting Company / Organization *</label>
+            <input type="text" id="oppOrganizer" name="organizer" class="form-control" required placeholder="e.g. OpenAI, GDG, Major League Hacking">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="oppMode">Opportunity Mode</label>
+            <select id="oppMode" name="mode" class="form-control">
+              <option value="Remote">Remote</option>
+              <option value="Hybrid">Hybrid</option>
+              <option value="Onsite">Onsite</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="oppLocation">Location</label>
+            <input type="text" id="oppLocation" name="location" class="form-control" placeholder="e.g. Bengaluru, India or Global / Online">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="oppDeadline">Application Deadline *</label>
+            <input type="date" id="oppDeadline" name="deadline" class="form-control" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="oppStipend">Stipend / Prize Pool / Perks</label>
+            <input type="text" id="oppStipend" name="stipendOrPrize" class="form-control" placeholder="e.g. $10,000 Prizes or ₹50,000/mo">
+          </div>
+
+          <div class="form-group full">
+            <label class="form-label" for="oppApplyUrl">Official Application URL *</label>
+            <input type="url" id="oppApplyUrl" name="applyUrl" class="form-control" required placeholder="https://example.com/apply">
+          </div>
+
+          <div class="form-group full">
+            <label class="form-label" for="oppSkills">Key Skills Required (comma-separated)</label>
+            <input type="text" id="oppSkills" name="requiredSkills" class="form-control" placeholder="e.g. Python, React, Cloud, Machine Learning">
+          </div>
+
+          <div class="form-group full">
+            <label class="form-label" for="oppInterests">Relevant Interests (comma-separated)</label>
+            <input type="text" id="oppInterests" name="interests" class="form-control" placeholder="e.g. Social Impact, Web Development, AI Systems">
+          </div>
+
+          <div class="form-group full">
+            <label class="form-label" for="oppDesc">Brief Overview</label>
+            <textarea id="oppDesc" name="description" class="form-control" rows="3" placeholder="Provide a concise summary of the opportunity, challenges, and deliverables..."></textarea>
+          </div>
+
+          <div class="form-group full">
+            <label class="form-label" for="oppEligibility">Eligibility Criteria</label>
+            <input type="text" id="oppEligibility" name="eligibility" class="form-control" placeholder="e.g. Open to undergraduate and postgraduate STEM students">
+          </div>
+
+          <div class="form-group full">
+            <label class="filter-checkbox-label">
+              <input type="checkbox" name="isFree" id="oppIsFree" checked>
+              <span>This opportunity is free to enter / attend</span>
+            </label>
+          </div>
+        </div>
+
+        <div style="margin-top:1.5rem; display:flex; justify-content:flex-end; gap:0.75rem;">
+          <button type="button" class="btn-secondary" id="cancelSubmitBtn" onclick="document.getElementById('submitModalOverlay').classList.remove('active')">
+            Cancel
+          </button>
+          <button type="submit" class="btn-primary" id="submitFormActionBtn">
+            🚀 Submit Opportunity
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Global Footer -->
+  <footer class="footer">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 0.6rem; align-items: center;">
+      <div style="display:flex; align-items:center; gap:0.5rem; font-weight:700; color:var(--text-primary);">
+        <span>⚡ SkillBridge</span>
+        <span>•</span>
+        <span>By students, for students</span>
+      </div>
+      <p style="color:var(--text-muted); font-size:0.82rem;">
+        Built with ❤️ for college students & developers • Keep exploring, keep building • 2026
+      </p>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript App Entry -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

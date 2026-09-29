@@ -1,0 +1,26 @@
+{
+  "name": "skillbridge",
+  "version": "1.0.0",
+  "description": "SkillBridge — Student Opportunity Discovery & Career Hub for Hackathons, Internships, Scholarships & Certifications",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js",
+    "test": "node tests/api.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5"
+  },
+  "keywords": [
+    "hackathon",
+    "student-opportunities",
+    "internships",
+    "scholarships",
+    "recommendations",
+    "cloud-run"
+  ],
+  "author": "Hackathon Team",
+  "license": "MIT"
+}
